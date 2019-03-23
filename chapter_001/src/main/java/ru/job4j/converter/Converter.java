@@ -38,4 +38,5 @@ public class Converter {
     public int DollarToRubl(int value) {
         return value * 60 ;
     }
+
 }
