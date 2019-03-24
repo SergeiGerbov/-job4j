@@ -2,7 +2,7 @@ package ru.job4j.calculator;
 public class Car {
     private double volume;
 
-    public void drive (int kilometr){
+    public void drive(int kilometr) {
         this.volume = this.volume - kilometr;
     }
     public void fill(int gas) {
@@ -12,7 +12,7 @@ public class Car {
         boolean result = this.volume > 0;
         return result;
     }
-    public void gasinfo(){
+    public void gasinfo() {
         System.out.println("i can drive" +  this.volume  + "kilometrs.");
     }
 

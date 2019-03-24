@@ -22,13 +22,13 @@ public class ConverterTest {
     @Test
     public void whenEuroToRublThen1() {
         Converter converter = new Converter();
-        int result = converter.EuroToRubl(1);
+        int result = converter.euroToRubl(1);
         assertThat(result, is(70));
     }
     @Test
     public void whenDollarToRublThen1() {
         Converter converter = new Converter();
-        int result = converter.DollarToRubl(1);
+        int result = converter.dollarToRubl(1);
         assertThat(result, is(60));
     }
 }

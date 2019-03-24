@@ -1,6 +1,6 @@
 package ru.job4j.calculator;
-public class CarUsage{
-    public static void main (String[] args){
+public class CarUsage {
+    public static void main(String[] args) {
         Car opel = new Car();
         boolean driving = opel.canDrive();
         System.out.println("Can you drive" + driving);
